@@ -1,0 +1,33 @@
+h1.title {
+  font-size: 25px;
+  text-align: center;
+  padding-top: 20px;
+}
+p.data-load-text{
+  text-align: center;
+}
+.container {
+  .filters-block{
+    width:25%;
+    display: inline-block;
+  }
+  .list-block{
+    width:70%;
+    display: inline-block;
+    border: 1px solid $border-color-main;
+    border-radius: 5px;
+    padding: 15px;
+  }
+  margin: 0 auto;
+  padding: 30px;
+
+  background-color: $background-color-main;
+  ::placeholder {
+    color: $secondary-color-main;
+  }
+  .list-container{
+    height: 600px;
+    overflow: auto;
+  }
+ 
+}

@@ -1,0 +1,14 @@
+button.page-button {
+  background: $active-color-main;
+  color: white;
+  padding: 8px 15px;
+  border-radius: 8px;
+  border: none;
+  font-size: 13px;
+  cursor: pointer;
+  margin: 20px 10px;
+}
+button.page-button:disabled{
+  cursor: not-allowed;
+  background: $secondary-color-main;
+}

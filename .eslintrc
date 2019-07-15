@@ -1,0 +1,19 @@
+{
+  "parser": "babel-eslint",
+  "extends": [
+    "airbnb",
+  ],
+  "env": {
+    "node": true,
+    "browser": true,
+    "jest": true,
+    "mocha": true
+  },
+  "plugins": ["react-hooks", "import", "jsx-a11y"],
+  "rules": {
+    "react/button-has-type": "off",
+    "jsx-a11y/label-has-for": ["error", {"components": ["Label"], "required": {"every": ["id"]}}],
+    "react-hooks/rules-of-hooks": "error",
+    "react-hooks/exhaustive-deps": "warn"
+  }
+}
